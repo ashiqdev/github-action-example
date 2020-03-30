@@ -1,0 +1,7 @@
+{
+  "name": "github-action-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ashiqur Rahman <ashiquejava@gmail.com>",
+  "license": "MIT"
+}
