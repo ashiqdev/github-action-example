@@ -2,8 +2,8 @@
   "url": "https://www.example.com/",
   "puppeteerConfig": {
     "browserOpts": {
-      "headless": false,
-      "args": ["--start-maximized", "--window-size=1920,1040"]
+      "headless": true,
+      "args": ["--start-maximized", "--window-size=1920,1040", "--no-sandbox", "--disable-setuid-sandbox"]
     },
 
     "pageOpts": {
