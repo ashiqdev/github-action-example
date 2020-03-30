@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ashiqur Rahman <ashiquejava@gmail.com>",
+  "scripts": {
+    "test": "mocha test/index.test.js"
+  },
   "license": "MIT",
   "dependencies": {
     "chai": "^4.2.0",
