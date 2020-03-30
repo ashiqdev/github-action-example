@@ -25,7 +25,7 @@ describe("simple test", () => {
     expect(pageUrl).to.equals(url);
   });
 
-  it("should scrape the currect header", async () => {
+  it("should scrape the correct header", async () => {
     const header = await page.$eval("div h1", header => header.innerText);
     expect(header).to.equal("Example Domain");
   });
