@@ -1,18 +1,19 @@
-name: "Dummy Github Actions"
+name: "GitHub Actions Test"
 on:
   pull_request:
     branches:
       - master
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: "Install node"
-      - uses: actions/setup-node@v1
-      - name: "Install mocha"
+      - name: "Install Node"
+        uses: actions/setup-node@v1
+      - name: Install mocha
         run: npm install -g mocha
-      - name: "Install dependencies"
+      - name: Install dependencies
         run: npm install
       - name: "Run Test"
-        run: yarn test
+        run: npm run test
